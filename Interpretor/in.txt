@@ -1,0 +1,21 @@
+age = 18;
+doigts = 10;
+annee = 1996;
+
+if (age >= 18) { if (doigts == 10) { show(10); } show(18); if (age == 18) { show(365); } show(145); if (annee == 1996) { show(1996); } }
+
+bonjour = 3;
+
+if (bonjour == 2) { show(2); } else { show(bonjour); }
+
+iterator = 2;
+floop(iterator <= 6) { show(iterator); iterator = iterator + 1; }
+
+iterator = 2;
+repeat(iterator + 3) { show(iterator);  }
+
+iterator = 2;
+repeatStatic(iterator + 3) { show(iterator); iterator = iterator + 1; }
+
+iter = 5;
+for(a = 0; a < iter; a = a + 1) { show(a); }
